@@ -1,0 +1,386 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fcf5eb;
+}
+
+header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    background-color: #fcf5eb;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp-logo-img {
+    width: 130px;
+}
+
+.download-btn {
+    background-color: #25d366;
+    color: #1c1e21;
+    border: 1px solid #1c1e21;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 24px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.download-btn span {
+    margin: 10px;
+    margin-right: 0px;
+    position: relative;
+    top: 3px;
+}
+
+.download-icon {
+    width: 20px;
+}
+
+
+main {
+    background-color: #fcf5eb;
+}
+
+.first-section {
+    background-image: url(https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=7RPIxDvm4J4AX9kvva5&_nc_ht=scontent.whatsapp.net&oh=01_AdSESl0wkITqtCceFN-t_5DFcl5VWyAe27I2tw262BZS3Q&oe=65EFFE25);
+    height: 100vh;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.first-section h1 {
+    font-size: 5rem;
+    margin: 10px;
+    width: 400px;
+    font-weight: 400;
+}
+
+.first-section p {
+    font-size: 1.25rem;
+    margin: 10px;
+    width: 400px;
+}
+
+.first-section div {
+    margin-left: 200px;
+}
+
+.first-section .download-btn {
+    margin-top: 100px;
+}
+
+.decorate-img {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.decorate-img img {
+    width: 90vw;
+    text-align: center;
+}
+
+.third-section {
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section p {
+    width: 60vw;
+}
+
+.feature-one {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    gap: 200px;
+}
+
+.matter {
+    width: 30vw;
+    margin-top: 150px;
+}
+
+.matter h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.matter p {
+    font-size: 1.25rem;
+    margin: 10px 0px;
+}
+
+.matter a {
+    color: #1c1e21;
+}
+
+.matter a:hover {
+    color: #25d366;
+}
+
+.feature-two {
+    background-color: #111B21;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0px 50px;
+}
+
+.feature-two span {
+    color: #25d366;
+}
+
+.feature-two .matter a {
+    color: white;
+}
+
+.feature-two .matter a:hover {
+    color: #25d366;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    gap: 200px;
+}
+
+.feature .image {
+    position: relative;
+}
+
+.feature .image .image-fore {
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+    left: -50px;
+}
+
+
+.big-img {
+    width: 326px;
+}
+
+footer {
+    padding: 100px 250px;
+    background-color: #111B21;
+    display: flex;
+    gap: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer th {
+    color: white;
+    font-weight: 100;
+    font-size: 0.75rem;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.footer-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer td {
+    padding: 10px 90px 10px 0px;
+    text-align: left;
+}
+
+.privacy-body {
+    background-color: #111B21;
+    color: white;
+}
+
+.privacy-header {
+    background-color: #111B21;
+    color: white;
+}
+
+.privacy-header a {
+    color: white;
+}
+
+.privacy-main {
+    background-color: #111B21;
+}
+
+.privacy-feature {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 100px;
+}
+
+.green-text {
+    color: #25d366;
+}
+
+.privacy-feature-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.privacy-feature-two p {
+    font-size: 3rem;
+    text-align: center;
+    width: 75vw;
+    margin-bottom: 50px;
+}
+
+.privacy-feature-two table {
+    width: 75vw;
+    text-align: center;
+}
+
+.privacy-feature-two th {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.privacy-feature-two td {
+    padding: 10px 50px;
+}
+
+.privacy-features {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 100px;
+}
+
+.privacy-features img {
+    border-radius: 28px;
+}
+
+.privacy-features a {
+    color: white;
+}
+
+.privacy-features a:hover {
+    color: #25d366;
+}
+
+.need-more-help {
+    background-color: #0B141A;
+    color: white;
+    padding: 100px 250px;
+}
+
+.need-more-help .heading {
+    padding-bottom: 50px;
+}
+.need-more-help h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.need-more-help .question {
+    padding: 30px;
+    border: 0.5px solid white;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: #25d366;
+    color: #0B141A;
+}
+
+.download-body {
+    background-color: #e6ffda;
+}
+
+.download-header {
+    background-color: #e6ffda;
+}
+
+.download-main {
+    background-color: #e6ffda;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.download-matter h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.download-for-windows {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+}
+
+.download-for-windows h3 {
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.download-for-windows p {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-size: 1.25rem;
+}
+
+.download-for-windows img {
+    width: 150px;
+}
